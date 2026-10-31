@@ -447,9 +447,6 @@ int main(void) {
     delay(50);
     resetLSMFiFo();
 
-    
-    
-    
     unsigned char LH[2] = {0x01,0x01};
     uint16_t ticks;
     int timeout = 0;
